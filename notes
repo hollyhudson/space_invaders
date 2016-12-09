@@ -1,0 +1,39 @@
+To Do:
+
+Better invaders
+	blender2 make all three alien shapes
+	blender3 make legs move
+
+Start game
+	1 have something to do to start
+
+End game
+	2 game stops when invaders touch visor or gun
+	3 post gameover notice to visor
+	4 make ground turn red when invaders hit ground
+	5 make everything red when invader hits visor or gun
+	6 post you win notice to visor when last invader is gone
+	7 make some small happy thing happen if you win
+	- make some big happy thing happen if you win
+
+Environment
+	1 make floor be a box generated based on chaperone walls, which is tower on top of building
+	blender1 build building under floor, make it look like you're on top of a building in a city
+
+Sound
+	- pew pew when firing gun
+	- invader moving noises
+
+Attacks
+	8 your bullets are green emissive
+	9 invaders fire on you in white emissive (with end game)
+	10 invaders damage you, 3 hits = end game
+
+
+Spawn index 3 location (both negative)
+compose a transform:
+	- Rotation is same, no change
+	- location x and y is average of locations?
+	- z is minus arbitrary amount to make it flush with floor
+	- x scale is based on index 0's x
+	- y scale is based on index 0's y 
