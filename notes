@@ -1,4 +1,16 @@
-To Do:
+Next steps:
+
+- Get rid of mesh and try to reimport w/out creating lenticular glitch.
+	If it doesn't work, proceed to next below, then add mesh later.
+- Scale ground using advice rather than creating a mesh to be the building
+you're standing on.
+- Make image a mask for emissives.
+
+- Procedurally generate buildings.
+
+- Work on building exterior image.
+
+To Do Schedule:
 
 Better invaders
 	blender2 make all three alien shapes
